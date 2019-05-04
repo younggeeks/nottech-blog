@@ -1,0 +1,146 @@
+html{
+    font-family: 'Varela Round', sans-serif;
+    font-size:20px;
+}
+
+header{
+    height:100px;
+    background-color:white;
+    display:flex;
+    justify-content: left;
+    padding:0 8%;
+    box-shadow: 1px 2px 3px #d9d9d9;
+}
+
+header img{
+    height: 50px;
+    margin-top: 25px;
+    margin-right: 100px;
+}
+
+
+
+.right-nav{
+    margin-left:auto;
+    margin-top: 9px;
+}
+
+
+
+/*-------INPUT ----------*/
+
+.right-nav input{
+    box-sizing: border-box;
+    width:150px;
+    padding:0 30px;
+    font-family: "open sans", serif;
+    font-size:80%;
+    height:60px;
+    border: 2px solid transparent;
+    border-radius:10px;
+    background-color: #f2f2f2;
+    margin-right:10px;
+}
+.right-nav input:focus::placeholder{
+    color:#222222;
+}
+
+.right-nav a{
+    background: url(img/searh.svg) no-repeat;
+    height:20px;
+    width:20px;
+    margin-top:30px;
+    display:inline-block;
+    color: #A5A5A5;
+    font-family: "Valera Round", serif;
+}
+
+.right-nav input:focus{
+    border: 2px solid #76B947;
+    background: white;
+    outline: transparent;
+    font-size:80%;
+    transition:all 0.3s linear 0s;
+}
+
+nav ul{
+    list-style:none;
+    line-height:50px;
+    margin-top: 25px;
+}
+
+nav li{
+    display:inline-block;
+    margin-right:30px;
+    height:100%;
+    position:relative;
+}
+
+nav li a:hover::before{
+    display:inline-block;
+    content:'';
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    border-top:4px solid #76B947;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+
+}
+
+
+nav li a{
+    text-decoration: none;
+    color: rgba(49,45,54,1);
+    border-top:2px solid transparent;
+    padding-top: 35px;
+    position:relative;
+    font-size:90%;
+    font-weight: 400;
+}
+nav li a:hover{
+    color: #76B947;
+    transition:all 0.3s linear 0s;
+}
+
+
+/*---------------*/
+/*TOP HEADER*/
+/*-----------------*/
+.top-header{
+    background-image: url(img/header_bg.jpg);
+    height:150px;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: space-between;
+    display:flex;
+}
+
+.top-header h2{
+    margin:0;
+    margin-left:150px;
+    font-size:190%;
+    color: #222222;
+    font-weight: 300;
+}
+
+.top-header span{
+    margin-right: 150px;
+}
+.top-header span i {
+    color:#888888;
+    font-size: 70%;
+    margin-right: 18px;
+}
+
+.top-header span a:link, .top-header span a:visited{
+    text-decoration: none;
+    color: #75B847;
+    font-size:70%;
+}
+
+
+
+/* ADD CSS HERE   */

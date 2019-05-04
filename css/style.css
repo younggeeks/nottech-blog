@@ -144,3 +144,13 @@ nav li a:hover{
 
 
 /* ADD CSS HERE   */
+.news-item a {
+    text-decoration: none;
+    color:rgb(10, 78, 4);
+    font-size: 30px;
+    list-style-type: none;
+}
+
+.news-item {
+    list-style: none;
+}

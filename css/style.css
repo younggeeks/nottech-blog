@@ -151,6 +151,9 @@ nav li a:hover{
     list-style-type: none;
 }
 
+.news-item a:hover {
+    text-decoration: underline;
+  }
 .news-item {
     list-style: none;
 }
